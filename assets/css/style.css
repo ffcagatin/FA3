@@ -59,3 +59,17 @@ button:hover {
     background-color: #82A6ED;
     color: #FFFDF5;
 }
+
+@media (max-width: 768px) {
+    .mp-cont {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    .mp-1, .mp-2 {
+        width: 100%;
+        max-width: 350px;
+    }
+}
