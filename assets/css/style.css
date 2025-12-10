@@ -70,7 +70,9 @@ button:hover {
     }
 
     .mp-1, .mp-2 {
-        width: 100%;
-        max-width: 350px;
+        width: 85%;
+        max-width: 330px;
+        margin: 0 auto;
+        padding: 20px;
     }
 }
